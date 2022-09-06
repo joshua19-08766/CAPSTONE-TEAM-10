@@ -1,0 +1,33 @@
+.grid{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-top: 50px;
+    color: white;
+    font-size: 15px;
+}
+.grid img{
+    background-color: white;
+    width:80%;
+    max-width: 120px;
+    margin-top: 20px;
+}
+.buttons{
+    display: block;
+}
+.icons{ 
+    background-color: white;
+    border-radius: 5%;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+p{
+    font-family: century gothic;
+    color: white;
+    font-size: 20px;
+}
+ion-label{
+    font-family: century gothic;
+    font-size: 15px;
+}

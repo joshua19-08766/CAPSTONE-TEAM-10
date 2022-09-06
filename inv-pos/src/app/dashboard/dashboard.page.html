@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>  
+    <ion-title>dashboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="grid">
+    <ion-grid>
+      <center>
+        <ion-row>
+         
+          <ion-col id="add">
+            <ion-label>ADD NEW ITEM</ion-label>
+            <div class="icons">
+              <ion-buttons class="buttons" (click)="add()"><img src="assets/img/add.png" alt="">i</ion-buttons> 
+            </div>
+          </ion-col>
+          <ion-col id="view">
+            <ion-label>VIEW ITEMS</ion-label>
+            <div  class="icons">
+              <ion-buttons class="buttons" (click)="view()"> <img src="assets/img/search.png" alt=""></ion-buttons> 
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col id="edit">
+            <ion-label>EDIT ITEM</ion-label>
+            <div class="icons">
+              <ion-buttons class="buttons" (click)="edit()"><img src="assets/img/edit.png" alt=""></ion-buttons>
+            </div>
+            </ion-col>
+          <ion-col id="delete">
+            <ion-label>DELETE ITEM</ion-label>
+            <div class="icons">
+              <ion-buttons class="buttons" (click)="delete()"><img src="assets/img/delete.png" alt=""></ion-buttons>
+            </div>
+          </ion-col>
+        </ion-row>
+      </center>
+      
+    </ion-grid>
+  </div>
+  
+</ion-content>
