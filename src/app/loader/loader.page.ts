@@ -7,14 +7,14 @@ import { Router } from '@angular/router';
 })
 export class LoaderPage implements OnInit {
 
-  constructor(private router:Router) { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
-    setTimeout(() => {
-      this.router.navigate(['main']);
-      }, 2000);
-
-
-    }
+  setTimeout(() => {
+  this.router.navigate(['home']);
+  }, 4000);
   }
+
+
+}
 

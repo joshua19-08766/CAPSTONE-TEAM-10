@@ -1,0 +1,25 @@
+.flex-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-right: 14px;
+  }
+
+.loader{
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    margin-top: 50%;
+}
+ion-content{
+    --background: linear-gradient(90deg, #4dbd71 0%, #2167b9 100%);
+    --opacity:1;
+}
+

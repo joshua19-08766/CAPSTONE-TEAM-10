@@ -9,13 +9,15 @@ const routes: Routes = [
   },
  
   {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
-  },
-  {
     path: 'loader',
     loadChildren: () => import('./loader/loader.module').then( m => m.LoaderPageModule)
   },
+  
+  {
+    path: 'home',
+    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+  },
+ 
   {
     path: 'main',
     loadChildren: () => import('./main/main.module').then( m => m.MainPageModule)
