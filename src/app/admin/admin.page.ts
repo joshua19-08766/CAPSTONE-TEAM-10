@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./admin.page.scss'],
 })
 export class AdminPage implements OnInit {
+  router: any;
 
   constructor() { }
 
   ngOnInit() {
   }
-
+  admin(){
+    this.router.navigate(['home']);
+    }
 }
