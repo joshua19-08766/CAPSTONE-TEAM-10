@@ -15,6 +15,6 @@ export class MainPage implements OnInit {
     this.router.navigate(['cashier']);
     }
     admin(){
-      this.router.navigate(['home']);
+      this.router.navigate(['admin']);
       }
 }

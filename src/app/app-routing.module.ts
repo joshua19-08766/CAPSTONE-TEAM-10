@@ -30,7 +30,11 @@ const routes: Routes = [
   {
     path: 'admin',
     loadChildren: () => import('./admin/admin.module').then( m => m.AdminPageModule)
+  },  {
+    path: 'pos',
+    loadChildren: () => import('./pos/pos.module').then( m => m.POSPageModule)
   }
+
 ];
 
 @NgModule({

@@ -2,3 +2,30 @@ ion-content{
     --background: linear-gradient(90deg, #4dbd71 0%, #2167b9 100%);
     --opacity:1;
 }
+ion-card{
+    margin-top:14em;
+    text-align: center;
+    box-shadow: none;
+ion-card-title{
+        color:rgb(13, 146, 199);
+        font-size: 50px;
+    }
+    ion-card-subtitle{
+        color:#1ebeb1;
+        font-size: 20px;
+        a{
+            text-decoration: none;
+            font-weight: bold;
+           
+        }
+    }
+  .admin{
+    text-align: center;
+    --ion-color-primary:#2167b9 ;
+
+  }
+  .loginbtn{
+    --ion-color-primary:#2167b9 ;
+  }
+ 
+}
