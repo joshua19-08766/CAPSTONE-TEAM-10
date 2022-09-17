@@ -12,7 +12,7 @@ export class LoaderPage implements OnInit {
   ngOnInit() {
   setTimeout(() => {
   this.router.navigate(['main']);
-  }, 5000);
+  }, 3000);
   }
 
 

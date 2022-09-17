@@ -24,13 +24,13 @@ ion-content{
         padding: 0 12vw;
         margin-top: 10px;
         ion-input{
-            --background: #5151b9;
+            --background: #E8E4C9;
             --padding-start:33px;
             height: 55;
             border-radius: 25px;
             margin-bottom: 22px;
-            --placeholder-color:#9d9bef;
-            --color:#fff;
+            --placeholder-color:#3A3B3C;
+            --color:black;
 
         }
     }
@@ -49,8 +49,9 @@ ion-content{
         }
         h1{
             margin-top: 80px;
-            font-size: 1rem;
+            font-size: 45px;
             font-weight: 400;
+            font-family: hey august;
           
         }
     }
@@ -58,5 +59,10 @@ ion-content{
     
     .login{
         margin-top: 90px;
-        background-color: #ffde59;
+        background-color: #77BFC7;
+        font-family: century gothic;
+        font-weight: bold;
+    }
+    h5{
+        font-family: century gothic;
     }
